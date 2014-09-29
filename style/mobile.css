@@ -212,10 +212,10 @@
   }
 
   /* Full blog page layout */
-  .full_blog_post .post_content, .team_page_contentm .post_content, .services_page_content .post_content {
+  .full_blog_post .post_content, .team_page_content .post_content, .services_page_content .post_content {
     font-size: .7em;
   }
-  .full_blog_post .last_block, .team_page_contentm .last_block, .services_page_content .last_block {
+  .full_blog_post .last_block, .team_page_content .last_block, .services_page_content .last_block {
     display: none;
   }
 
