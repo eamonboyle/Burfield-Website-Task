@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
+	
+	html, body {
+	    max-width: 100%;
+	    overflow-x: hidden;
+	    -webkit-overflow-scrolling: touch;
+	}
+
+	.inner_div {
+		max-width: 97%;
+	}
+
+
+	p {
+		padding: 10px;
+		font-size: 1.5em;
+	}
+
+	h1 {
+		padding: 0px 10px;
+		font-size: 2em;
+	}
+
+	ul {
+		margin: 0; padding: 0;
+	}
+
+	.left {
+		float: none;
+	}
+
+	.right {
+		float: none;
+	}
+
+	.page_title {
+		font-size: 1em;
+	}
+
+	.banner .cycle-overlay, .banner .cycle-pager, .client_block {
+		display: none!important;
+	}
+
+	.mobile_nav_margin {
+		display: block;
+		height: 80px;
+	}
+
+	.top_bar {
+		position: fixed;
+		z-index: 99999999999;
+		width: 100%;
+		padding: 10px 20px;
+		margin-bottom: 100px;
+		&_right {
+			display: none;
+		}
+		&_menu_button {
+			display: block;
+			width: 50%;
+			text-align: right;
+			padding-bottom: 10px;
+			padding-top: 5px;
+			img:hover {
+				cursor: pointer;
+			}
+		}
+		&_left {
+			width: 50%;
+			padding-top: 15px;
+		}
+	}
+
+	.top_bar_mobile_nav {
+		position: fixed;
+		top: 75px;
+		width: 100%;
+		padding-bottom: 5px;
+		z-index: 99999999999;
+		background: #2d2b2c;
+		font-family: 'Oswald', sans-serif;
+		.active {
+			background: #37aa35;
+			a {
+				color: #FFF;
+			}
+		}
+		ul li {
+			font-size: 1.7em;
+			a {
+				display: block;
+				width: 100%;
+				text-align: center;
+			}
+			&:hover {
+				background: #37aa35;
+			}
+			&:hover a {
+				color: #FFF;
+			}
+			a:hover {
+				color: #FFF;
+			}
+		}
+	}
+
+	.home_page_content {
+		padding-bottom: 0px;
+		.welcome_block {
+			p {
+				font-size: 1em;
+			}
+		}
+		.service_block {
+			.service {
+				width: 100%!important;
+				float: none!important;
+				padding-left: 20px;
+				.service_desc {
+					font-size: 1em;
+				}
+			}
+		}
+		.news_block {
+			.news_item {
+				width: 100%;
+				padding-right: 20px;
+				padding-left: 10px;
+
+				p {
+					font-size: 1em;
+					line-height: 1.2;
+				}
+
+				.read_more a {
+					padding-left: 10px;
+				}
+			}
+		}
+		.last_block {
+			margin: 0;
+			.company_quote {
+				width: 100%;
+				.quote_content {
+					padding-bottom: 0;
+				}
+				.quote_name {
+					padding-top: 0;
+					font-size: 1em;
+				}
+			}
+			.gallery_block {
+				width: 100%;
+				padding-left: 0px;
+				padding-bottom: 20px;
+			}
+		}
+	}
+
+	.main_footer {
+		padding: 20px;
+		.social_block {
+			display: none;
+		}
+		.get_in_touch {
+			width: 100%;
+			text-align: center;
+			h1 {
+				display: none;
+			}
+
+			p {
+				font-size: 1em;
+				padding: 0;
+			}
+		}
+
+		.contact_info {
+			text-align: center;
+			width: 100%;
+			padding-top: 0px;
+			p {
+				font-size: 1em;
+			}
+		}
+	}
+
+	.bottom_footer_main {
+		font-size: .9em;
+		.bottom_nav {
+			width: 50%;
+			text-align: center;
+			width: 100%;
+		}
+		.copyright_info {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+
+/* BLOG PAGE STYLING */
+
+.blog_page_content {
+	.blog_list {
+		.blog_item {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 20px;
+			img {
+				width: 100%;
+			}
+			.blog_exerpt {
+				text-align: center;
+				h1 {
+					padding: 10px 0px;
+					font-size: 1.7em;
+				}
+				p {
+					font-size: 1em;
+					min-height: 20px;
+				}
+			}
+		}
+	}
+	.last_block { 
+		display: none;
+	}
+}
+
+/* Full blog page layout */
+
+.full_blog_post, .team_page_contentm, .services_page_content {
+	.post_content {
+		font-size: .7em;
+	}
+	.last_block { 
+		display: none;
+	}
+}
+
+.team_page_content {
+	.team_container {
+		padding-bottom: 10px;
+		.team_single {
+			width: 100%;
+			margin-right: 0;
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.services_page_content {
+	.service_block {
+			.service {
+				width: 100%!important;
+				float: none!important;
+				padding-left: 20px;
+				.service_desc {
+					font-size: 1em;
+				}
+			}
+		}
+}
+
+
+} /* End of Mobile */
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 1050px) { // iPad & Tablet
+	
+	.top_bar {
+		&_left {
+			padding-top: 5px;
+		}
+	}
+
+	.home_page_content, .services_page_content {
+		.service_block {
+			.service {
+				width: 33%!important;
+				float: left!important;
+			}
+		}
+	}
+
+	.services_page_content {
+		.service_paragraph {
+			font-size: .8em;
+		}
+	}
+
+	.team_page_content {
+		.team_container {
+			.team_single {
+				width: 23%;
+				margin-right: 2%;
+			}
+		}
+	}
+
+}
